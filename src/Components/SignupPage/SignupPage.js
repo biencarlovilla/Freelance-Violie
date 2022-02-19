@@ -96,7 +96,7 @@ function SignupPage() {
   });
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:3001/Auth", data).then(() => {
+    axios.post("https://taxes-edrosolancpa.herokuapp.com/Auth", data).then(() => {
       alert ("Registration Successful");
     });
   };

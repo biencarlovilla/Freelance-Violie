@@ -68,7 +68,7 @@ function LoginPage() {
 
   const login = () => {
     const data = { email: email, password: password };
-    axios.post("http://localhost:3001/Auth/login", data).then(() => {
+    axios.post("https://taxes-edrosolancpa.herokuapp.com/Auth/login", data).then(() => {
         window.location.replace("/profile");
     });
   };
