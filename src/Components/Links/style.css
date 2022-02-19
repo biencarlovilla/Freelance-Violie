@@ -1,0 +1,18 @@
+#links {
+	padding: 10px 0 50px 0;
+}
+.image {
+	background-color: #5a5a5a;
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	transition: .5s;
+}
+.image:hover {
+	opacity: 0.6;
+	transition: .3s;
+	/* background-image: url(../images/hoverbg.png); */
+	background-repeat: no-repeat;
+	background-position: center;
+}

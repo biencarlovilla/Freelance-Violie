@@ -1,0 +1,33 @@
+.align {
+	position: relative;
+	padding: 0 40px 0 160px;
+	
+}
+
+input[type="submit"] {
+	display: inline-block;
+	height: 38px;
+	padding: 0 30px;
+	color: #fff;
+	text-align: center;
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background: rgb(172, 87, 172);
+	border-radius: 0px;
+	border: 0;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+input[type="submit"]:hover {
+	background: black;
+	text-decoration: none;
+}
+
+#clientservices {
+	padding: 10px 0 50px 0;
+}
